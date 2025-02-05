@@ -9,4 +9,6 @@
                  
               }
              if (i == fruits.Length && fruits[i] != fruit)
+             {
             Console.WriteLine("False");
+            }
