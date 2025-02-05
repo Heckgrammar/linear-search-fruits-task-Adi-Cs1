@@ -1,9 +1,3 @@
-using System;
-
-public class HelloWorld
-{
-    public static void Main(string[] args)
-    {
           string[] fruits = { "banana", "apple", "orange", "pear", "grape", "pineapple" };
           Console.WriteLine("What fruit would you like to find");
           string fruit = Console.ReadLine();
@@ -15,9 +9,4 @@ public class HelloWorld
                  
               }
              if (i == fruits.Length && fruits[i] != fruit)
-            Console.WriteLine("False");  
-          }
-          
-          
-    }
-}
+            Console.WriteLine("False");
